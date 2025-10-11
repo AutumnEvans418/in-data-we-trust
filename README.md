@@ -15,3 +15,7 @@ The dataset was downloaded for one of the hackathons, in which the task was to d
 There are a year of publishing, title and an excerpt from the news in the columns "year", "title", "excerpt".
 
 Data provided by The New York Times https://developer.nytimes.com/
+
+# Running the Project
+1. Clone the git repo.
+1. Due to the significant size, the data isn't stored along with the source code. You will need to download the dataset. [See docs here](src/raw_data/README.md)
