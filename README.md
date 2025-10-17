@@ -1,7 +1,7 @@
 # Team In Data We Trust: Topic Modeling
 Final Project Submission to perform topic modeling on NYT articles dataset.
 
-## Problem
+# Problem
 **Topic Modeling:**
 Introduction: In the world we live in, data streams are constantly being gathered. This means that mining the gathered data for insights might get extremely laborious and time-consuming. Large amounts of textual data may be arranged, searched for, and understood with the help of topic modeling. In the field of machine learning, a topic model is precisely described as a natural language processing method that uncovers text's latent semantic patterns inside a corpus, or collection of documents. A continuous set of words, such as a paragraph or an article, where each article has a set of words, is generally referred to as a document.
 
@@ -16,6 +16,40 @@ There are a year of publishing, title and an excerpt from the news in the column
 
 Data provided by The New York Times https://developer.nytimes.com/
 
+# Topic Modeling Process
+Below are the steps we will perform:
+## Discovery
+1. Determine the structure of the data and the scope.
+1. Evaluate data completeness.
+## Cleaning
+1. Clean up the data by removing missing values and duplicates.
+1. Convert titles + excerpts to lower case.
+1. Remove punctuation.
+1. Tokenize words.
+1. Remove stop words.
+1. Lemmatization/Stemming
+1. Create a Term-Document-Matrix
+
+### Cleaning Result
+|Title_Excerpt|Words|
+|---|---|
+|Title<br>Some excerpt.|[title, some, excerpt]|
+
+The table above will be converted into the TDM below:
+
+Term-Document-Matrix (TDM):
+
+|Term|Title_Excerpt1|Title_Excerpt2|
+|---|---|---|
+|title|1|0|
+|some|0|2|
+
+## Analysis: Latent Dirichlet Allocation (LDA)
+- Train the LDA model.
+- Fine tune the LDA model (selecting optimal number of topics for the dataset).
+- Generate diagrams for each topic, displaying the top terms for each topic.
+
 # Running the Project
 1. Clone the git repo.
 1. Due to the significant size, the data isn't stored along with the source code. You will need to download the dataset. [See docs here](src/raw_data/README.md)
+1. Run `pip install -r .\requirements.txt` to install the necessary packages.
