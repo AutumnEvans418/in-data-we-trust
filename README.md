@@ -22,13 +22,13 @@ Below are the steps we will perform:
 1. Determine the structure of the data and the scope.
 1. Evaluate data completeness.
 ## Cleaning
-1. Clean up the data by removing missing values and duplicates.
-1. Convert titles + excerpts to lower case.
-1. Remove punctuation.
-1. Tokenize words.
-1. Remove stop words.
-1. Lemmatization/Stemming
-1. Create a Term-Document-Matrix
+1. Clean up the data by removing missing values and duplicates. - **Autumn**
+1. Convert titles + excerpts to lower case. - **Autumn**
+1. Remove punctuation. - **Autumn**
+1. Tokenize words. - **Joel**
+1. Remove stop words. - **Joel**
+1. Lemmatization/Stemming - **Joel**
+1. Create a Term-Document-Matrix - ?
 
 ### Cleaning Result
 |Title_Excerpt|Words|
@@ -45,9 +45,17 @@ Term-Document-Matrix (TDM):
 |some|0|2|
 
 ## Analysis: Latent Dirichlet Allocation (LDA)
-- Train the LDA model.
-- Fine tune the LDA model (selecting optimal number of topics for the dataset).
-- Generate diagrams for each topic, displaying the top terms for each topic.
+In order to work on this in parallel, we will create a standard function:
+```python
+def lda(input, num_topics): #input=[(0,1),(1,2)]
+    #train model
+    pass
+
+```
+
+- Train the LDA model. - **Manan**
+- Fine tune the LDA model (selecting optimal number of topics for the dataset). - ?
+- Generate diagrams for each topic, displaying the top terms for each topic. - ?
 
 # Running the Project
 1. Clone the git repo.
