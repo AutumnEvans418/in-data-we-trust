@@ -60,4 +60,5 @@ def lda(input, num_topics): #input=[(0,1),(1,2)]
 # Running the Project
 1. Clone the git repo.
 1. Due to the significant size, the data isn't stored along with the source code. You will need to download the dataset. [See docs here](src/raw_data/README.md)
+1. Install python 3.13.5. We used https://github.com/pyenv-win/pyenv-win to manage our python versions.
 1. Run `pip install -r .\requirements.txt` to install the necessary packages.
