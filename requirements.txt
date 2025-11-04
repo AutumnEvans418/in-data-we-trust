@@ -8,3 +8,6 @@ notebook
 jupyter
 ipykernel
 ipython
+scikit-learn
+pyLDAvis
+wordcloud
