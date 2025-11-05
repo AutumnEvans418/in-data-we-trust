@@ -208,3 +208,4 @@ __marimo__/
 
 *.parquet
 !clean_data_sample_100000.parquet
+lemmatized_tokenized_data.csv
