@@ -210,3 +210,7 @@ __marimo__/
 !clean_data_sample_100000.parquet
 lemmatized_tokenized_data.csv
 src/reports/dtm.npz
+.pkl
+.pk
+src/reports/count_vectorizer.pkl
+src/reports/lda_model-n-topics-5.pk

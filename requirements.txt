@@ -13,3 +13,4 @@ pyLDAvis
 wordcloud
 nltk
 scikit-learn
+pyldavis
