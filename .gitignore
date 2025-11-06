@@ -211,6 +211,6 @@ __marimo__/
 lemmatized_tokenized_data.csv
 src/reports/dtm.npz
 .pkl
-.pk
+*.pk
 src/reports/count_vectorizer.pkl
 src/reports/lda_model-n-topics-5.pk
